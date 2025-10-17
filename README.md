@@ -1,8 +1,3 @@
-Harika bir fikir\! Projenin tüm dosyalarını inceledim. Bu, öğrendiğimiz tüm konuları mükemmel bir şekilde bir araya getiren harika bir portföy projesi olmuş.
-
-İşte bu proje için yazabileceğin, hem projenin özelliklerini anlatan hem de teknik yeteneklerini sergileyen kapsamlı bir `README.md` dosyası. Aşağıdaki metni kopyalayıp `README.md` dosyana yapıştırabilirsin.
-
------
 
 # Elektronik Mağazası Vitrin Projesi
 
