@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ürün Filtreleme</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <h1>Elektronik Mağazası</h1>
+        <div class="cart-info">
+            Sepetinizde <span id="cart-count">0</span> ürün var.
+        </div>
+        <a href="cart.html"><i class="fa-regular fa-cart-shopping fa-2xl"></i></a>
+    </header>
+
+    <main>
+        <aside class="filters">
+            <h2>Filtreler</h2>
+            <input type="text" id="searchInput" placeholder="Ürün ara...">
+            <h3>Kategoriler</h3>
+            <div id="category-buttons">
+                <button class="btn active" data-category="all">Tümü</button>
+                <button class="btn" data-category="laptop">Laptop</button>
+                <button class="btn" data-category="telefon">Telefon</button>
+                <button class="btn" data-category="kulaklık">Kulaklık</button>
+            </div>
+        </aside>
+        <section id="product-list" class="products">
+            </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
